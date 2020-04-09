@@ -47,9 +47,10 @@ OS X & Linux & Windows: there is 3 ways to install the project:
      from the directory src type : "make". to run the project type: "./stockbot"
      please note that you must proivde a databse. the starter repository already includes a database.
     
- ## Udacity-caspone-project
+ ## Udacity-castpone-project
   - as mentioned above, the c++ part can ran alone without any necessary additional installation.
   - the directory src includes the folowwing files :
+        
         - makefile - to build the c++ engine.
         - main.cpp - the main function for the project.
         - my_system.h - header file for my_system class.
