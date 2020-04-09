@@ -3,9 +3,9 @@ analyzing current sp500 stocks by implementing a modified benjamin-graham's algo
 
 General Arhictecture 
 the project consists of three parts:
-  - python scrapper - a multhi-threaded python scrapper.
-  - sql database - sql database to store the stock data.
-  - c++ engine - a c++ engine to anazlyze the stocks.
+  1.python scrapper - a multhi-threaded python scrapper.
+  1.sql database - sql database to store the stock data.
+  1.c++ engine - a c++ engine to anazlyze the stocks.
 
 Description 
 - The python scrapper download all the sp500 stock symbols. for each one of the stocks the scrapper download stock data : p/e, current-     ratio, etc.
@@ -15,7 +15,6 @@ Description
 
 
 ![GitHub Logo](/images/gui.png)
-Format: ![Alt Text](url)
 
 
 
