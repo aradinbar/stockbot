@@ -38,7 +38,7 @@ c++:
 OS X & Linux & Windows: there is 3 ways to install the project:
   
   - building the whole project from scratch.
-     from the home directory type : "python build_project.py". the script will start the scrapping, move the older database to                  database/backup folder, create new database, run the c++ engine on the database and display the results.
+     from the home directory type : "python project_builder.py". the script will start the scrapping, move the older database to                  database/backup folder, create new database, run the c++ engine on the database and display the results.
   
    - running only the python scrapper.
      from the directory python_scrapper type : "python main.py". the scrapper will build the stocks database and save it at database            folder. the name of the database will be "mydatabase.db". if the database is already there, delete it manually before running the          script.
