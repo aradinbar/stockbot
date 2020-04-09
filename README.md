@@ -77,6 +77,6 @@ OS X & Linux & Windows: there is 3 ways to install the project:
         
    
         
- ## Contribuers
+ ## Contributers
  - thanks to Dan Kashtan for providing his stock knowledge and benjamin graham algorithm. 
 
