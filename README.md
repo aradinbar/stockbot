@@ -46,5 +46,19 @@ OS X & Linux & Windows: there is 3 ways to install the project:
    - running only the c++ engine.
      from the directory src type : "make". to run the project type: "./stockbot"
      please note that you must proivde a databse. the starter repository already includes a database.
- 
+    
+ ## Udacity-caspone-project
+  - as mentioned above, the c++ part can ran alone without any necessary additional installation.
+  - the directory src includes the folowwing files :
+        - makefile - to build the c++ engine.
+        - main.cpp - the main function for the project.
+        - my_system.h - header file for my_system class.
+        - my.system.cpp - implementation of my_system class. the class is responsible to get vector of stocks and adding to each stock its         benjamin graham parameter from 0-7.
+        - ncrusers_display.h - header file for ncrusers_display namespace.
+        - ncrusers_display.cpp - namespace responislble for creating a gui for the project.
+        - sql_reader.h - header file for sql_reader namespace.
+        - sql_reader.cpp - namespace responisible for parsing the the sql database file.
+        - stock.h - header file for stock class.
+        - stock.cpp - a class that stores stocks information.
+        
 
