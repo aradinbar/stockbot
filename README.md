@@ -11,8 +11,8 @@
 
 ## Description 
 
-- The python scrapper download all the sp500 stock symbols. for each one of the stocks the scrapper download stock data : p/e, current-     ratio, etc.
-- The python scrapper save all the data to an sql database file.
+- The python scrapper downloads all the sp500 stock symbols. for each one of the stocks the scrapper download stock data : p/e, current-     ratio, etc.
+- The python scrapper saves all the data to an sql database file.
 - The c++ engine reads the database, calculate every stock by benjamin graham parameters and gives indicator to every stock from 0-7.
 - The c++ engine will display the 10 best stocks to buy at this moment, according to benjamin graham algorithm. 
 
