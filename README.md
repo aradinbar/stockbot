@@ -73,5 +73,10 @@ OS X & Linux & Windows: there is 3 ways to install the project:
         - The project follows the Rule of 5. the stock class implements the rule of 5.
         - The project uses move semantics to move data, instead of copying it, where possible. at sql_reader.cpp there is a use of                 std::move to move a stock object to the vector of stock (line 18).
         - The project uses multithreading. the class my_system.cpp uses multithreading to calculate the stocks benjamin-graham parameter.
-        - A mutex or lock is used in the project. in my_class.cpp a mutex is used to protect acess to a vector.
+        - A mutex or lock is used in the project. in my_class.cpp a mutex is used to protect acess to a vector. 
+        
+   
+        
+ ## Contribuers
+ - thanks to Dan Kashtan for providing his stock knowledge and benjamin graham algorithm. 
 
