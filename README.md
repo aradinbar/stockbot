@@ -1,6 +1,6 @@
 # STOCKBOT
 
- analyzing current sp500 stocks by implementing my own analysys inspired by  benjamin-graham's algorithm. 
+ analyzing current sp500 stocks by implementing an analysys inspired by  benjamin-graham's algorithm. 
 
 ## General Arhictecture 
 
