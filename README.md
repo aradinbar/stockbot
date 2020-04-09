@@ -1,4 +1,4 @@
-  STOCKBOT
+  [create an anchor](###STOCKBOT)STOCKBOT
 
  analyzing current sp500 stocks by implementing a modified benjamin-graham's algorithm. 
 
