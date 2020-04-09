@@ -5,7 +5,7 @@
 ## General Arhictecture 
 
   the project consists of three parts:
- - python scrapper - a multhi-threaded python scrapper.
+ - python scrapper - a multithreaded python scrapper.
  - sql database - sql database to store the stock data.
  - c++ engine - a c++ engine to anazlyze the stocks.
 
@@ -61,5 +61,17 @@ OS X & Linux & Windows: there is 3 ways to install the project:
         - sql_reader.cpp - namespace responisible for parsing the the sql database file.
         - stock.h - header file for stock class.
         - stock.cpp - a class that stores stocks information.
+ 
+ - the following criteria are met:
         
+        - The project demonstrates an understanding of C++ functions and control structures.
+        - The project reads data from a file and process the data, or the program writes data to a file. in sql_reader.cpp a read from the         sql database is done.
+        - The project uses Object Oriented Programming techniques.
+        - Classes use appropriate access specifiers for class members.
+        - Classes encapsulate behavior. the classes use getters and setters.
+        - Derived class functions override virtual base class functions. in the file stock.cpp there is an overide for the operator "<"
+        - The project follows the Rule of 5. the stock class implements the rule of 5.
+        - The project uses move semantics to move data, instead of copying it, where possible. at sql_reader.cpp there is a use of                 std::move to move a stock object to the vector of stock (line 18).
+        - The project uses multithreading. the class my_system.cpp uses multithreading to calculate the stocks benjamin-graham parameter.
+        - A mutex or lock is used in the project. in my_class.cpp a mutex is used to protect acess to a vector.
 
