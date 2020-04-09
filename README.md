@@ -49,7 +49,7 @@ OS X & Linux & Windows: there is 3 ways to install the project:
     
  ## Udacity-Castpone-Project
   - as mentioned above, the c++ part can ran alone without any necessary additional installation.
-  - the directory src includes the folowwing files :
+  - the directory src includes the following files :
         
         - makefile - to build the c++ engine.
         - main.cpp - the main function for the project.
